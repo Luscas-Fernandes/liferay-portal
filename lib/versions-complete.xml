@@ -685,8 +685,8 @@
 			</library>
 			<library>
 				<file-name>com.liferay.document.library.opener.google.drive.web.jar!google-api-services-drive.jar</file-name>
-				<version>v3-rev20190311-1.28.0</version>
-				<project-name>Drive API v3-rev20190311-1.28.0</project-name>
+				<version>v3-rev20250216-2.0.0</version>
+				<project-name>Google Drive API v3-rev20250216-2.0.0</project-name>
 				<licenses>
 					<license>
 						<license-name>The Apache Software License, Version 2.0</license-name>
@@ -696,8 +696,8 @@
 			</library>
 			<library>
 				<file-name>com.liferay.document.library.opener.google.drive.web.jar!google-api-services-oauth2.jar</file-name>
-				<version>v2-rev137-1.23.0</version>
-				<project-name>Google OAuth2 API v2-rev137-1.23.0</project-name>
+				<version>v2-rev157-1.25.0</version>
+				<project-name>Google OAuth2 API v2-rev157-1.25.0</project-name>
 				<licenses>
 					<license>
 						<license-name>The Apache Software License, Version 2.0</license-name>
@@ -3229,8 +3229,20 @@
 				</licenses>
 			</library>
 			<library>
+				<file-name>com.liferay.portal.store.s3.jar!aws-java-sdk-sts.jar</file-name>
+				<version>1.12.719</version>
+				<project-name>AWS Java SDK for AWS STS</project-name>
+				<project-url>https://aws.amazon.com/sdkforjava</project-url>
+				<licenses>
+					<license>
+						<license-name>Apache License, Version 2.0</license-name>
+						<license-url>https://aws.amazon.com/apache2.0</license-url>
+					</license>
+				</licenses>
+			</library>
+			<library>
 				<file-name>com.liferay.portal.store.s3.jar!ibm-cos-java-sdk-core.jar</file-name>
-				<version>2.9.0</version>
+				<version>2.14.0</version>
 				<project-name>IBM COS SDK for Java - Core</project-name>
 				<project-url>https://github.com/ibm/ibm-cos-sdk-java</project-url>
 				<licenses>
@@ -3242,7 +3254,7 @@
 			</library>
 			<library>
 				<file-name>com.liferay.portal.store.s3.jar!ibm-cos-java-sdk-kms.jar</file-name>
-				<version>2.9.0</version>
+				<version>2.14.0</version>
 				<project-name>IBM COS Java SDK for COS KMS</project-name>
 				<project-url>https://github.com/ibm/ibm-cos-sdk-java</project-url>
 				<licenses>
@@ -3254,7 +3266,7 @@
 			</library>
 			<library>
 				<file-name>com.liferay.portal.store.s3.jar!ibm-cos-java-sdk-s3.jar</file-name>
-				<version>2.9.0</version>
+				<version>2.14.0</version>
 				<project-name>IBM COS Java SDK for Amazon S3</project-name>
 				<project-url>https://github.com/ibm/ibm-cos-sdk-java</project-url>
 				<licenses>
