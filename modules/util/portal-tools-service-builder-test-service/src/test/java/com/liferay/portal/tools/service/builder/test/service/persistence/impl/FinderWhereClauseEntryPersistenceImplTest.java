@@ -6,9 +6,9 @@
 package com.liferay.portal.tools.service.builder.test.service.persistence.impl;
 
 import com.liferay.portal.kernel.test.ReflectionTestUtil;
+import com.liferay.portal.kernel.util.PropsUtil;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -16,9 +16,10 @@ import org.junit.Test;
  */
 public class FinderWhereClauseEntryPersistenceImplTest {
 
-	@Ignore
 	@Test
 	public void testFinderWhereClause() {
+		PropsUtil.set("testKey", "testValue");
+
 		Assert.assertEquals(
 			"finderWhereClauseEntry.name = ? AND finderWhereClauseEntry." +
 				"nickname IS NOT NULL",
